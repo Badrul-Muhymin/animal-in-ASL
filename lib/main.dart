@@ -5,10 +5,16 @@ void main() {
     //home: Text('Hi Newbie'),
     home: Scaffold(
       appBar: AppBar(
-        title: const Text('My first App'),
+        title: const Text('Nuha nak Apps background anime'),
         centerTitle: true,
         backgroundColor: Colors.blue,
       ),
+      body: Image.asset(
+          'assets/bg.jpg',
+          fit: BoxFit.cover,
+          width: double.infinity,
+          height: double.infinity,
+        ),
     ),
   ));
 }
