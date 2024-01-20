@@ -9,12 +9,13 @@ void main() {
         centerTitle: true,
         backgroundColor: Colors.blue,
       ),
-      body: Image.asset(
-          'assets/bg.jpg',
-          fit: BoxFit.cover,
-          width: double.infinity,
-          height: double.infinity,
-        ),
+      body:Image.asset(
+                  'assets/bg.jpg', // Replace with your image path
+                  fit: BoxFit.cover,
+                  width: double.infinity,
+                  height: double.infinity,
+
     ),
-  ));
+  )),
+  );
 }
