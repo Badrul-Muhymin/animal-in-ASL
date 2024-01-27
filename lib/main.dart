@@ -25,49 +25,53 @@ class FirstPage extends StatelessWidget {
         ),
         child: Center(
           child:
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              ElevatedButton(
-                onPressed: () {
-                  _showOverlay(context);
-                },
-                child: Text('Popup Overlay'),
-              ),
-              SizedBox(height: 20), // Add some space between the button and the image
-              Image.asset(
-                'assets/tame.jpeg', // Replace with your image asset path
-                width: 200, // Adjust the width as needed
-                height: 200, // Adjust the height as needed
-                fit: BoxFit.cover,
-              ),
-              SizedBox(height: 20), // Add some space between the image and the buttons
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+              Stack(
                 children: [
                   ElevatedButton(
                     onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => tameAnimal()),
-                      );
+                      _showOverlay(context);
                     },
-                    child: Text('Tame Animal'),
+                    child: Text('Home'),
                   ),
-                  SizedBox(width: 20), // Add some space between the buttons
-                  ElevatedButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => wildAnimal()),
-                      );
-                    },
-                    child: Text('Wild Animal'),
-                  ),
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      SizedBox(height: 0), // Add some space between the button and the image
+                      Image.asset(
+                        'assets/tame.jpeg', // Replace with your image asset path
+                        width: 200, // Adjust the width as needed
+                        height: 300, // Adjust the height as needed
+                        fit: BoxFit.cover,
+                      ),
+                      SizedBox(height: 20), // Add some space between the image and the buttons
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          ElevatedButton(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => tameAnimal()),
+                              );
+                            },
+                            child: Text('Tame Animal'),
+                          ),
+                          SizedBox(width: 20), // Add some space between the buttons
+                          ElevatedButton(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => wildAnimal()),
+                              );
+                            },
+                            child: Text('Wild Animal'),
+                          ),
+                        ],
+                      ),
+                    ],
+                  )
                 ],
               ),
-            ],
-          )
         ),
       ),
     );
