@@ -10,7 +10,7 @@ class wildAnimal extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/Background2.jpeg'), // Replace with your image asset path
+            image: AssetImage('assets/wild.jpeg'), // Replace with your image asset path
             fit: BoxFit.cover,
           ),
         ),

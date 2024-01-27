@@ -10,7 +10,7 @@ class tameAnimal extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/Background2.jpeg'), // Replace with your image asset path
+            image: AssetImage('assets/tame.jpeg'), // Replace with your image asset path
             fit: BoxFit.cover,
           ),
         ),
