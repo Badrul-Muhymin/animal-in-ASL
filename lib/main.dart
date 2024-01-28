@@ -13,9 +13,6 @@ class FirstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home Page'),
-      ),
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
@@ -28,7 +25,7 @@ class FirstPage extends StatelessWidget {
               Stack(
                 children: [
                   Positioned(
-                    top: 10,
+                    top: 100,
                     left: 10,// Adjust the top position as needed
                     child: ElevatedButton(
                       onPressed: () {
@@ -145,25 +142,7 @@ class FirstPage extends StatelessWidget {
   }
 }
 
-void _showOverlay(BuildContext context) {
-  showDialog(
-    context: context,
-    builder: (BuildContext context) {
-      return AlertDialog(
-        title: const Text('Overlay Title'),
-        content: const Text('This is the content of the overlay.'),
-        actions: [
-          TextButton(
-            onPressed: () {
-              Navigator.of(context).pop();
-            },
-            child: const Text('Close'),
-          ),
-        ],
-      );
-    },
-  );
-}
+
 
 
 
