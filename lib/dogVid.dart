@@ -30,15 +30,28 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreenDog> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Video Player'), // Customize the title as needed
+        title: Text('Dog ASL'), // Customize the title as needed
       ),
-      body: Center(
-        child: _controller.value.isInitialized
-            ? AspectRatio(
-          aspectRatio: _controller.value.aspectRatio,
-          child: VideoPlayer(_controller),
-        )
-            : CircularProgressIndicator(),
+      body: Stack(
+        children: [
+          // Background image
+          Image.asset(
+            'assets/Background3.jpeg', // Replace with your image path
+            fit: BoxFit.cover, // Adjust fit as needed
+            width: double.infinity,
+            height: double.infinity,
+          ),
+
+          // Video player centered on top of the image
+          Center(
+            child: _controller.value.isInitialized
+                ? AspectRatio(
+              aspectRatio: _controller.value.aspectRatio,
+              child: VideoPlayer(_controller),
+            )
+                : CircularProgressIndicator(),
+          ),
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {

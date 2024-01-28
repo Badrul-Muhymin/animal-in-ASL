@@ -3,18 +3,18 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
 
-class VideoPlayerScreenCat extends StatefulWidget {
+class VideoPlayerScreenGiraffe extends StatefulWidget {
   @override
   _VideoPlayerScreenState createState() => _VideoPlayerScreenState();
 }
 
-class _VideoPlayerScreenState extends State<VideoPlayerScreenCat> {
+class _VideoPlayerScreenState extends State<VideoPlayerScreenGiraffe> {
   late VideoPlayerController _controller;
 
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.asset('assets/catVid.MOV');
+    _controller = VideoPlayerController.asset('assets/giraffeVid.MOV');
     _controller.initialize().then((_) {
       setState(() {});
     });
@@ -30,13 +30,13 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreenCat> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cat ASL'), // Customize the title as needed
+        title: Text('Giraffe ASL'), // Customize the title as needed
       ),
       body: Stack(
         children: [
           // Background image
           Image.asset(
-            'assets/Background3.jpeg', // Replace with your image path
+            'assets/Background4.jpeg', // Replace with your image path
             fit: BoxFit.cover, // Adjust fit as needed
             width: double.infinity,
             height: double.infinity,
