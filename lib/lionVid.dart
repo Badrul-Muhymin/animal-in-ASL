@@ -14,7 +14,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreenLion> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.asset('assets/goatVid.MOV');
+    _controller = VideoPlayerController.asset('assets/lionVid.mp4');
     _controller.initialize().then((_) {
       setState(() {});
     });
