@@ -17,7 +17,7 @@ class tameAnimal extends StatelessWidget {
           Stack(
             children: [
               Positioned(
-                top: 100,
+                top: 40,
                 left: 10,// Adjust the top position as needed
                 child: ElevatedButton(
                   onPressed: () {
@@ -35,7 +35,7 @@ class tameAnimal extends StatelessWidget {
                     height: 30, // Adjust the height as needed
                     fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
                   ),
-                ),
+                ), //home button
               ),
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -80,7 +80,7 @@ class tameAnimal extends StatelessWidget {
                       ), //CATS BUTTON
                     ],
                   ),
-                  const SizedBox(height: 20), // Add some space between the image and the buttons
+                  const SizedBox(height: 10), // Add some space between the image and the buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -102,7 +102,89 @@ class tameAnimal extends StatelessWidget {
                           ),
                         ]
                         ),
-                      ), //Bird BUTTON
+                      ), //Dog BUTTON
+                      const SizedBox(width: 10), // Add some space between the buttons
+                      SizedBox(
+                        width: 200, // Adjust the width as needed
+                        child: ElevatedButton(
+                          onPressed: () {
+                            _showOverlay(context);
+                          },
+                          style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                          ),
+                          child: const Text(
+                            'Dog',
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      ), //Dog BUTTON
+                    ],
+                  ),
+                  const SizedBox(height: 10), // Add some space between the image and the buttons
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {
+                          _showOverlay(context);
+                        },
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                        ),
+                        child:
+                        Stack(children: [
+                          const SizedBox(height: 5),
+                          Image.asset(
+                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            width: 30, // Adjust the width as needed
+                            height: 30, // Adjust the height as needed
+                            fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
+                          ),
+                        ]
+                        ),
+                      ),//Chicken BUTTON
+                      const SizedBox(width: 10), // Add some space between the buttons
+                      SizedBox(
+                        width: 200, // Adjust the width as needed
+                        child: ElevatedButton(
+                          onPressed: () {
+                            _showOverlay(context);
+                          },
+                          style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                          ),
+                          child: const Text(
+                            'Chicken',
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      ),//Chicken BUTTON
+                    ],
+                  ),
+                  const SizedBox(height: 10), // Add some space between the image and the buttons
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {
+                          _showOverlay(context);
+                        },
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                        ),
+                        child:
+                        Stack(children: [
+                          const SizedBox(height: 5),
+                          Image.asset(
+                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            width: 30, // Adjust the width as needed
+                            height: 30, // Adjust the height as needed
+                            fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
+                          ),
+                        ]
+                        ),
+                      ),//Bird Button
                       const SizedBox(width: 10), // Add some space between the buttons
                       SizedBox(
                         width: 200, // Adjust the width as needed
@@ -118,10 +200,10 @@ class tameAnimal extends StatelessWidget {
                             style: TextStyle(color: Colors.white),
                           ),
                         ),
-                      ), //Bird BUTTON
+                      ),//Bird Button
                     ],
                   ),
-                  const SizedBox(height: 20), // Add some space between the image and the buttons
+                  const SizedBox(height: 10),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -143,8 +225,8 @@ class tameAnimal extends StatelessWidget {
                           ),
                         ]
                         ),
-                      ),//Dog BUTTON
-                      const SizedBox(width: 20), // Add some space between the buttons
+                      ), //Goat BUTTON
+                      const SizedBox(width: 10), // Add some space between the buttons
                       SizedBox(
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
@@ -155,14 +237,14 @@ class tameAnimal extends StatelessWidget {
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
                           ),
                           child: const Text(
-                            'Dog',
+                            'Goat',
                             style: TextStyle(color: Colors.white),
                           ),
                         ),
-                      ),//Dog BUTTON
+                      ), //Goat BUTTON
                     ],
                   ),
-                  const SizedBox(height: 20), // Add some space between the image and the buttons
+                  const SizedBox(height: 10), // Add some space between the image and the buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -184,8 +266,8 @@ class tameAnimal extends StatelessWidget {
                           ),
                         ]
                         ),
-                      ),//Fish Button
-                      const SizedBox(width: 20), // Add some space between the buttons
+                      ), //Cow BUTTON
+                      const SizedBox(width: 10), // Add some space between the buttons
                       SizedBox(
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
@@ -196,11 +278,175 @@ class tameAnimal extends StatelessWidget {
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
                           ),
                           child: const Text(
-                            'Dog',
+                            'Cow',
                             style: TextStyle(color: Colors.white),
                           ),
                         ),
-                      ),//Fish Button
+                      ), //Cow BUTTON
+                    ],
+                  ),
+                  const SizedBox(height: 10), // Add some space between the image and the buttons
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {
+                          _showOverlay(context);
+                        },
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                        ),
+                        child:
+                        Stack(children: [
+                          const SizedBox(height: 5),
+                          Image.asset(
+                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            width: 30, // Adjust the width as needed
+                            height: 30, // Adjust the height as needed
+                            fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
+                          ),
+                        ]
+                        ),
+                      ),//Fish BUTTON
+                      const SizedBox(width: 10), // Add some space between the buttons
+                      SizedBox(
+                        width: 200, // Adjust the width as needed
+                        child: ElevatedButton(
+                          onPressed: () {
+                            _showOverlay(context);
+                          },
+                          style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                          ),
+                          child: const Text(
+                            'Fish',
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      ),//Fish BUTTON
+                    ],
+                  ),
+                  const SizedBox(height: 10), // Add some space between the image and the buttons
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {
+                          _showOverlay(context);
+                        },
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                        ),
+                        child:
+                        Stack(children: [
+                          const SizedBox(height: 5),
+                          Image.asset(
+                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            width: 30, // Adjust the width as needed
+                            height: 30, // Adjust the height as needed
+                            fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
+                          ),
+                        ]
+                        ),
+                      ),//Horse Button
+                      const SizedBox(width: 10), // Add some space between the buttons
+                      SizedBox(
+                        width: 200, // Adjust the width as needed
+                        child: ElevatedButton(
+                          onPressed: () {
+                            _showOverlay(context);
+                          },
+                          style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                          ),
+                          child: const Text(
+                            'Horse',
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      ),//Horse Button
+                    ],
+                  ),
+                  const SizedBox(height: 10), // Add some space between the image and the buttons
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {
+                          _showOverlay(context);
+                        },
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                        ),
+                        child:
+                        Stack(children: [
+                          const SizedBox(height: 5),
+                          Image.asset(
+                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            width: 30, // Adjust the width as needed
+                            height: 30, // Adjust the height as needed
+                            fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
+                          ),
+                        ]
+                        ),
+                      ),//Duck BUTTON
+                      const SizedBox(width: 10), // Add some space between the buttons
+                      SizedBox(
+                        width: 200, // Adjust the width as needed
+                        child: ElevatedButton(
+                          onPressed: () {
+                            _showOverlay(context);
+                          },
+                          style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                          ),
+                          child: const Text(
+                            'Duck',
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      ),//Duck BUTTON
+                    ],
+                  ),
+                  const SizedBox(height: 10), // Add some space between the image and the buttons
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      ElevatedButton(
+                        onPressed: () {
+                          _showOverlay(context);
+                        },
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                        ),
+                        child:
+                        Stack(children: [
+                          const SizedBox(height: 5),
+                          Image.asset(
+                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            width: 30, // Adjust the width as needed
+                            height: 30, // Adjust the height as needed
+                            fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
+                          ),
+                        ]
+                        ),
+                      ),//Rabbit Button
+                      const SizedBox(width: 10), // Add some space between the buttons
+                      SizedBox(
+                        width: 200, // Adjust the width as needed
+                        child: ElevatedButton(
+                          onPressed: () {
+                            _showOverlay(context);
+                          },
+                          style: ButtonStyle(
+                            backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                          ),
+                          child: const Text(
+                            'Rabbit',
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      ),//Rabbit Button
                     ],
                   ),
                 ],

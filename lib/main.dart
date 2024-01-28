@@ -133,7 +133,22 @@ class FirstPage extends StatelessWidget {
                         ],
                       ),
                     ],
-                  )
+                  ),
+                  Positioned(
+                    bottom: 10,
+                    left: 0,
+                    right: 0,
+                    child: Container(
+                      alignment: Alignment.center,
+                      child: const Text(
+                        '© 2024 Badrul Muhymin Bin Mazlee. All Rights Reserved.',
+                        style: TextStyle(
+                          color: Colors.black26,
+                          fontSize: 12,
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
         ),
