@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:video_player/video_player.dart';
-import 'catVid.dart';import 'dogVid.dart';
+import 'catVid.dart';import 'dogVid.dart';import 'chickenVid.dart';import 'birdVid.dart';import 'goatVid.dart';
+import 'cowVid.dart';import 'fishVid.dart';import 'horseVid.dart';import 'duck.dart';import 'rabbitVid.dart';
 import 'main.dart';
 
 class tameAnimal extends StatelessWidget {
@@ -81,7 +81,7 @@ class tameAnimal extends StatelessWidget {
                         ),
                       ), //CATS BUTTON
                     ],
-                  ),
+                  ),//cat
                   const SizedBox(height: 10), // Add some space between the image and the buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -122,14 +122,14 @@ class tameAnimal extends StatelessWidget {
                         ),
                       ), //Dog BUTTON
                     ],
-                  ),
+                  ),//dog
                   const SizedBox(height: 10), // Add some space between the image and the buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          cat_overlay(context);
+                          chicken_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -151,7 +151,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            cat_overlay(context);
+                            chicken_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -163,14 +163,14 @@ class tameAnimal extends StatelessWidget {
                         ),
                       ),//Chicken BUTTON
                     ],
-                  ),
+                  ),//chicken
                   const SizedBox(height: 10), // Add some space between the image and the buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          cat_overlay(context);
+                          bird_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -192,7 +192,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            cat_overlay(context);
+                            bird_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -204,14 +204,14 @@ class tameAnimal extends StatelessWidget {
                         ),
                       ),//Bird Button
                     ],
-                  ),
+                  ),//bird
                   const SizedBox(height: 10),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          cat_overlay(context);
+                          goat_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -233,7 +233,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            cat_overlay(context);
+                            goat_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -245,14 +245,14 @@ class tameAnimal extends StatelessWidget {
                         ),
                       ), //Goat BUTTON
                     ],
-                  ),
+                  ),//goat
                   const SizedBox(height: 10), // Add some space between the image and the buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          cat_overlay(context);
+                          cow_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -274,7 +274,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            cat_overlay(context);
+                            cow_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -286,14 +286,14 @@ class tameAnimal extends StatelessWidget {
                         ),
                       ), //Cow BUTTON
                     ],
-                  ),
+                  ),//cow
                   const SizedBox(height: 10), // Add some space between the image and the buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          cat_overlay(context);
+                          fish_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -315,7 +315,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            cat_overlay(context);
+                            fish_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -327,14 +327,14 @@ class tameAnimal extends StatelessWidget {
                         ),
                       ),//Fish BUTTON
                     ],
-                  ),
+                  ),//fish
                   const SizedBox(height: 10), // Add some space between the image and the buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          cat_overlay(context);
+                          horse_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -356,7 +356,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            cat_overlay(context);
+                            horse_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -368,14 +368,14 @@ class tameAnimal extends StatelessWidget {
                         ),
                       ),//Horse Button
                     ],
-                  ),
+                  ),//horse
                   const SizedBox(height: 10), // Add some space between the image and the buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          cat_overlay(context);
+                          duck_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -397,7 +397,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            cat_overlay(context);
+                            duck_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -409,14 +409,14 @@ class tameAnimal extends StatelessWidget {
                         ),
                       ),//Duck BUTTON
                     ],
-                  ),
+                  ),//duck
                   const SizedBox(height: 10), // Add some space between the image and the buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          cat_overlay(context);
+                          rabbit_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -438,7 +438,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            cat_overlay(context);
+                            rabbit_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -450,7 +450,7 @@ class tameAnimal extends StatelessWidget {
                         ),
                       ),//Rabbit Button
                     ],
-                  ),
+                  ),//rabbit
                 ],
               )
             ],
@@ -504,6 +504,10 @@ void cat_overlay(BuildContext context) {
                     onPressed: () {
                       Navigator.of(context).pop();
                     },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                      foregroundColor: MaterialStateProperty.all<Color>(Colors.white),// Replace with your desired background color
+                    ),
                     child: const Text('Close'),
                   ),
                   const SizedBox(width: 60),
@@ -512,7 +516,14 @@ void cat_overlay(BuildContext context) {
                       Navigator.of(context).pop();
                       dog_overlay(context);
                     },
-                    child: const Text('Next'),
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/next.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
                   ),
                 ],
               )
@@ -568,14 +579,29 @@ void dog_overlay(BuildContext context) {
                       Navigator.of(context).pop();
                       cat_overlay(context);
                     },
-                    child: const Text('Prev'),
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/prev.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
                   ),
-                  const SizedBox(width: 60),
+                  const SizedBox(width: 70),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).pop();
+                      chicken_overlay(context);
                     },
-                    child: const Text('Next'),
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/next.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
                   ),
                 ],
               )
@@ -587,7 +613,625 @@ void dog_overlay(BuildContext context) {
   );
 }
 
+void chicken_overlay(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Center(
+          child: Text('CHICKEN'),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
+          children: [
+            Image.asset(
+              'assets/tame icon.jpeg', // Replace with your image asset path
+              width: 100, // Adjust the width as needed
+              height: 100, // Adjust the height as needed
+              fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
+            ),
 
+            const SizedBox(height: 10), // Add some space between the video and the text
+            const Text('Chicken ASL'),
+          ],
+        ),
+        actions: [
+
+          Column(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => VideoPlayerScreenChicken()),
+                  );
+                },
+                child: const Icon(
+                    Icons.play_arrow
+                ),
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      dog_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/prev.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                  const SizedBox(width: 70),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      bird_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/next.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ],
+      );
+    },
+  );
+}
+
+void bird_overlay(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Center(
+          child: Text('BIRD'),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
+          children: [
+            Image.asset(
+              'assets/tame icon.jpeg', // Replace with your image asset path
+              width: 100, // Adjust the width as needed
+              height: 100, // Adjust the height as needed
+              fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
+            ),
+
+            const SizedBox(height: 10), // Add some space between the video and the text
+            const Text('Bird ASL'),
+          ],
+        ),
+        actions: [
+
+          Column(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => VideoPlayerScreenBird()),
+                  );
+                },
+                child: const Icon(
+                    Icons.play_arrow
+                ),
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      chicken_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/prev.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                  const SizedBox(width: 70),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      goat_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/next.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ],
+      );
+    },
+  );
+}
+
+void goat_overlay(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Center(
+          child: Text('GOAT'),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
+          children: [
+            Image.asset(
+              'assets/tame icon.jpeg', // Replace with your image asset path
+              width: 100, // Adjust the width as needed
+              height: 100, // Adjust the height as needed
+              fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
+            ),
+
+            const SizedBox(height: 10), // Add some space between the video and the text
+            const Text('Goat ASL'),
+          ],
+        ),
+        actions: [
+
+          Column(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => VideoPlayerScreenGoat()),
+                  );
+                },
+                child: const Icon(
+                    Icons.play_arrow
+                ),
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      bird_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/prev.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                  const SizedBox(width: 70),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      cow_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/next.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ],
+      );
+    },
+  );
+}
+
+void cow_overlay(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Center(
+          child: Text('COW'),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
+          children: [
+            Image.asset(
+              'assets/tame icon.jpeg', // Replace with your image asset path
+              width: 100, // Adjust the width as needed
+              height: 100, // Adjust the height as needed
+              fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
+            ),
+
+            const SizedBox(height: 10), // Add some space between the video and the text
+            const Text('Cow ASL'),
+          ],
+        ),
+        actions: [
+
+          Column(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => VideoPlayerScreenCow()),
+                  );
+                },
+                child: const Icon(
+                    Icons.play_arrow
+                ),
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      goat_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/prev.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                  const SizedBox(width: 70),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      fish_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/next.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ],
+      );
+    },
+  );
+}
+
+void fish_overlay(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Center(
+          child: Text('FISH'),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
+          children: [
+            Image.asset(
+              'assets/tame icon.jpeg', // Replace with your image asset path
+              width: 100, // Adjust the width as needed
+              height: 100, // Adjust the height as needed
+              fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
+            ),
+
+            const SizedBox(height: 10), // Add some space between the video and the text
+            const Text('Fish ASL'),
+          ],
+        ),
+        actions: [
+
+          Column(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => VideoPlayerScreenFish()),
+                  );
+                },
+                child: const Icon(
+                    Icons.play_arrow
+                ),
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      cow_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/prev.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                  const SizedBox(width: 70),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      horse_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/next.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ],
+      );
+    },
+  );
+}
+
+void horse_overlay(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Center(
+          child: Text('HORSE'),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
+          children: [
+            Image.asset(
+              'assets/tame icon.jpeg', // Replace with your image asset path
+              width: 100, // Adjust the width as needed
+              height: 100, // Adjust the height as needed
+              fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
+            ),
+
+            const SizedBox(height: 10), // Add some space between the video and the text
+            const Text('Horse ASL'),
+          ],
+        ),
+        actions: [
+
+          Column(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => VideoPlayerScreenHorse()),
+                  );
+                },
+                child: const Icon(
+                    Icons.play_arrow
+                ),
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      fish_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/prev.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                  const SizedBox(width: 70),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      duck_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/next.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ],
+      );
+    },
+  );
+}
+
+void duck_overlay(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Center(
+          child: Text('DUCK'),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
+          children: [
+            Image.asset(
+              'assets/tame icon.jpeg', // Replace with your image asset path
+              width: 100, // Adjust the width as needed
+              height: 100, // Adjust the height as needed
+              fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
+            ),
+
+            const SizedBox(height: 10), // Add some space between the video and the text
+            const Text('Duck ASL'),
+          ],
+        ),
+        actions: [
+
+          Column(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => VideoPlayerScreenDuck()),
+                  );
+                },
+                child: const Icon(
+                    Icons.play_arrow
+                ),
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      horse_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/prev.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                  const SizedBox(width: 70),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      rabbit_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/next.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ],
+      );
+    },
+  );
+}
+
+void rabbit_overlay(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Center(
+          child: Text('RABBIT'),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
+          children: [
+            Image.asset(
+              'assets/tame icon.jpeg', // Replace with your image asset path
+              width: 100, // Adjust the width as needed
+              height: 100, // Adjust the height as needed
+              fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
+            ),
+
+            const SizedBox(height: 10), // Add some space between the video and the text
+            const Text('Rabbit ASL'),
+          ],
+        ),
+        actions: [
+
+          Column(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => VideoPlayerScreenRabbit()),
+                  );
+                },
+                child: const Icon(
+                    Icons.play_arrow
+                ),
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      duck_overlay(context);
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    ),
+                    child: Image.asset(
+                      'assets/prev.jpeg', // Replace with your image path
+                      width: 30, // Adjust width as needed
+                      height: 30, // Adjust height as needed
+                    ),
+                  ),
+                  const SizedBox(width: 70),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
+                      foregroundColor: MaterialStateProperty.all<Color>(Colors.white),// Replace with your desired background color
+                    ),
+                    child: const Text('Close'),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ],
+      );
+    },
+  );
+}
 
 
 
