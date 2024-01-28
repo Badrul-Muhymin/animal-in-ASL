@@ -94,7 +94,7 @@ class FirstPage extends StatelessWidget {
                                     ),
                                     const SizedBox(height: 10),
                                     const Text(
-                                      'Tame Animal',
+                                      'Tame Animals',
                                       style: TextStyle(
                                         color: Colors.black, // Replace with your desired text color
                                       ),
@@ -130,7 +130,7 @@ class FirstPage extends StatelessWidget {
                                     ),
                                     const SizedBox(height: 10),
                                     const Text(
-                                      'Wild Animal',
+                                      'Wild Animals',
                                       style: TextStyle(
                                         color: Colors.black, // Replace with your desired text color
                                       ),
