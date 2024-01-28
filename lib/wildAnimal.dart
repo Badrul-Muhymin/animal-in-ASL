@@ -29,10 +29,10 @@ class wildAnimal extends StatelessWidget {
                     );
                   },
                   style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                    backgroundColor: MaterialStateProperty.all<Color>(Colors.transparent), // Replace with your desired background color
                   ),
                   child: Image.asset(
-                    'assets/homeIcon.jpeg', // Replace with your image asset path
+                    'assets/icons/home.png', // Replace with your image asset path
                     width: 30, // Adjust the width as needed
                     height: 30, // Adjust the height as needed
                     fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
@@ -50,13 +50,13 @@ class wildAnimal extends StatelessWidget {
                           tiger_overlay(context);
                         },
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.white12), // Replace with your desired background color
                         ),
                         child:
                         Stack(children: [
                           const SizedBox(height: 5),
                           Image.asset(
-                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            'assets/icons/tiger.png', // Replace with your image asset path
                             width: 30, // Adjust the width as needed
                             height: 30, // Adjust the height as needed
                             fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
@@ -91,13 +91,13 @@ class wildAnimal extends StatelessWidget {
                           lion_overlay(context);
                         },
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.white12), // Replace with your desired background color
                         ),
                         child:
                         Stack(children: [
                           const SizedBox(height: 5),
                           Image.asset(
-                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            'assets/icons/lion.png', // Replace with your image asset path
                             width: 30, // Adjust the width as needed
                             height: 30, // Adjust the height as needed
                             fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
@@ -132,13 +132,13 @@ class wildAnimal extends StatelessWidget {
                           snake_overlay(context);
                         },
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.white12), // Replace with your desired background color
                         ),
                         child:
                         Stack(children: [
                           const SizedBox(height: 5),
                           Image.asset(
-                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            'assets/icons/snake.png', // Replace with your image asset path
                             width: 30, // Adjust the width as needed
                             height: 30, // Adjust the height as needed
                             fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
@@ -173,13 +173,13 @@ class wildAnimal extends StatelessWidget {
                           monkey_overlay(context);
                         },
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.white12), // Replace with your desired background color
                         ),
                         child:
                         Stack(children: [
                           const SizedBox(height: 5),
                           Image.asset(
-                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            'assets/icons/monkey.png', // Replace with your image asset path
                             width: 30, // Adjust the width as needed
                             height: 30, // Adjust the height as needed
                             fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
@@ -214,13 +214,13 @@ class wildAnimal extends StatelessWidget {
                           wolf_overlay(context);
                         },
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.white12), // Replace with your desired background color
                         ),
                         child:
                         Stack(children: [
                           const SizedBox(height: 5),
                           Image.asset(
-                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            'assets/icons/wolf.png', // Replace with your image asset path
                             width: 30, // Adjust the width as needed
                             height: 30, // Adjust the height as needed
                             fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
@@ -255,13 +255,13 @@ class wildAnimal extends StatelessWidget {
                           croc_overlay(context);
                         },
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.white12), // Replace with your desired background color
                         ),
                         child:
                         Stack(children: [
                           const SizedBox(height: 5),
                           Image.asset(
-                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            'assets/icons/croc.png', // Replace with your image asset path
                             width: 30, // Adjust the width as needed
                             height: 30, // Adjust the height as needed
                             fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
@@ -296,13 +296,13 @@ class wildAnimal extends StatelessWidget {
                           elephant_overlay(context);
                         },
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.white12), // Replace with your desired background color
                         ),
                         child:
                         Stack(children: [
                           const SizedBox(height: 5),
                           Image.asset(
-                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            'assets/icons/elephant.png', // Replace with your image asset path
                             width: 30, // Adjust the width as needed
                             height: 30, // Adjust the height as needed
                             fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
@@ -337,13 +337,13 @@ class wildAnimal extends StatelessWidget {
                           giraffe_overlay(context);
                         },
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.white12), // Replace with your desired background color
                         ),
                         child:
                         Stack(children: [
                           const SizedBox(height: 5),
                           Image.asset(
-                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            'assets/icons/giraffe.png', // Replace with your image asset path
                             width: 30, // Adjust the width as needed
                             height: 30, // Adjust the height as needed
                             fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
@@ -378,13 +378,13 @@ class wildAnimal extends StatelessWidget {
                           bear_overlay(context);
                         },
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.white12), // Replace with your desired background color
                         ),
                         child:
                         Stack(children: [
                           const SizedBox(height: 5),
                           Image.asset(
-                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            'assets/icons/bear.png', // Replace with your image asset path
                             width: 30, // Adjust the width as needed
                             height: 30, // Adjust the height as needed
                             fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
@@ -419,13 +419,13 @@ class wildAnimal extends StatelessWidget {
                           hippo_overlay(context);
                         },
                         style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
+                          backgroundColor: MaterialStateProperty.all<Color>(Colors.white12), // Replace with your desired background color
                         ),
                         child:
                         Stack(children: [
                           const SizedBox(height: 5),
                           Image.asset(
-                            'assets/tame icon.jpeg', // Replace with your image asset path
+                            'assets/icons/hippo.png', // Replace with your image asset path
                             width: 30, // Adjust the width as needed
                             height: 30, // Adjust the height as needed
                             fit: BoxFit.contain, // You might need to adjust the fit based on your image aspect ratio
@@ -473,7 +473,7 @@ void tiger_overlay(BuildContext context) {
           mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
           children: [
             Image.asset(
-              'assets/tame icon.jpeg', // Replace with your image asset path
+              'assets/icons/tiger.png', // Replace with your image asset path
               width: 100, // Adjust the width as needed
               height: 100, // Adjust the height as needed
               fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
@@ -547,7 +547,7 @@ void lion_overlay(BuildContext context) {
           mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
           children: [
             Image.asset(
-              'assets/tame icon.jpeg', // Replace with your image asset path
+              'assets/icons/lion.png', // Replace with your image asset path
               width: 100, // Adjust the width as needed
               height: 100, // Adjust the height as needed
               fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
@@ -625,7 +625,7 @@ void snake_overlay(BuildContext context) {
           mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
           children: [
             Image.asset(
-              'assets/tame icon.jpeg', // Replace with your image asset path
+              'assets/icons/snake.png', // Replace with your image asset path
               width: 100, // Adjust the width as needed
               height: 100, // Adjust the height as needed
               fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
@@ -703,7 +703,7 @@ void monkey_overlay(BuildContext context) {
           mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
           children: [
             Image.asset(
-              'assets/tame icon.jpeg', // Replace with your image asset path
+              'assets/icons/monkey.png', // Replace with your image asset path
               width: 100, // Adjust the width as needed
               height: 100, // Adjust the height as needed
               fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
@@ -781,7 +781,7 @@ void wolf_overlay(BuildContext context) {
           mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
           children: [
             Image.asset(
-              'assets/tame icon.jpeg', // Replace with your image asset path
+              'assets/icons/wolf.png', // Replace with your image asset path
               width: 100, // Adjust the width as needed
               height: 100, // Adjust the height as needed
               fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
@@ -859,7 +859,7 @@ void croc_overlay(BuildContext context) {
           mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
           children: [
             Image.asset(
-              'assets/tame icon.jpeg', // Replace with your image asset path
+              'assets/icons/croc.png', // Replace with your image asset path
               width: 100, // Adjust the width as needed
               height: 100, // Adjust the height as needed
               fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
@@ -937,7 +937,7 @@ void elephant_overlay(BuildContext context) {
           mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
           children: [
             Image.asset(
-              'assets/tame icon.jpeg', // Replace with your image asset path
+              'assets/icons/elephant.png', // Replace with your image asset path
               width: 100, // Adjust the width as needed
               height: 100, // Adjust the height as needed
               fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
@@ -1015,7 +1015,7 @@ void giraffe_overlay(BuildContext context) {
           mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
           children: [
             Image.asset(
-              'assets/tame icon.jpeg', // Replace with your image asset path
+              'assets/icons/giraffe.png', // Replace with your image asset path
               width: 100, // Adjust the width as needed
               height: 100, // Adjust the height as needed
               fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
@@ -1093,7 +1093,7 @@ void bear_overlay(BuildContext context) {
           mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
           children: [
             Image.asset(
-              'assets/tame icon.jpeg', // Replace with your image asset path
+              'assets/icons/bear.png', // Replace with your image asset path
               width: 100, // Adjust the width as needed
               height: 100, // Adjust the height as needed
               fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
@@ -1171,7 +1171,7 @@ void hippo_overlay(BuildContext context) {
           mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
           children: [
             Image.asset(
-              'assets/tame icon.jpeg', // Replace with your image asset path
+              'assets/icons/hippo.png', // Replace with your image asset path
               width: 100, // Adjust the width as needed
               height: 100, // Adjust the height as needed
               fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
