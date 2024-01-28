@@ -14,7 +14,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreenChicken> {
   @override
   void initState() {
     super.initState();
-    _controller = VideoPlayerController.asset('assets/crocVid.MOV');
+    _controller = VideoPlayerController.asset('assets/chickenVid.MOV');
     _controller.initialize().then((_) {
       setState(() {});
     });
