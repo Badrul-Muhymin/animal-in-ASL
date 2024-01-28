@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:video_player/video_player.dart';
+import 'catVid.dart';import 'dogVid.dart';
 import 'main.dart';
 
 class tameAnimal extends StatelessWidget {
@@ -45,7 +47,7 @@ class tameAnimal extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          _showOverlay(context);
+                          cat_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -67,7 +69,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            _showOverlay(context);
+                            cat_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -86,7 +88,7 @@ class tameAnimal extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          _showOverlay(context);
+                          dog_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -108,7 +110,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            _showOverlay(context);
+                            dog_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -127,7 +129,7 @@ class tameAnimal extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          _showOverlay(context);
+                          cat_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -149,7 +151,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            _showOverlay(context);
+                            cat_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -168,7 +170,7 @@ class tameAnimal extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          _showOverlay(context);
+                          cat_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -190,7 +192,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            _showOverlay(context);
+                            cat_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -209,7 +211,7 @@ class tameAnimal extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          _showOverlay(context);
+                          cat_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -231,7 +233,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            _showOverlay(context);
+                            cat_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -250,7 +252,7 @@ class tameAnimal extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          _showOverlay(context);
+                          cat_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -272,7 +274,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            _showOverlay(context);
+                            cat_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -291,7 +293,7 @@ class tameAnimal extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          _showOverlay(context);
+                          cat_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -313,7 +315,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            _showOverlay(context);
+                            cat_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -332,7 +334,7 @@ class tameAnimal extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          _showOverlay(context);
+                          cat_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -354,7 +356,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            _showOverlay(context);
+                            cat_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -373,7 +375,7 @@ class tameAnimal extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          _showOverlay(context);
+                          cat_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -395,7 +397,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            _showOverlay(context);
+                            cat_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -414,7 +416,7 @@ class tameAnimal extends StatelessWidget {
                     children: [
                       ElevatedButton(
                         onPressed: () {
-                          _showOverlay(context);
+                          cat_overlay(context);
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all<Color>(Colors.black), // Replace with your desired background color
@@ -436,7 +438,7 @@ class tameAnimal extends StatelessWidget {
                         width: 200, // Adjust the width as needed
                         child: ElevatedButton(
                           onPressed: () {
-                            _showOverlay(context);
+                            cat_overlay(context);
                           },
                           style: ButtonStyle(
                             backgroundColor: MaterialStateProperty.all<Color>(Colors.black),
@@ -459,22 +461,133 @@ class tameAnimal extends StatelessWidget {
   }
 }
 
-void _showOverlay(BuildContext context) {
+void cat_overlay(BuildContext context) {
   showDialog(
     context: context,
     builder: (BuildContext context) {
       return AlertDialog(
-        title: const Text('Overlay Title'),
-        content: const Text('This is the content of the overlay.'),
+        title: const Center(
+          child: Text('CAT'),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
+          children: [
+            Image.asset(
+              'assets/tame icon.jpeg', // Replace with your image asset path
+              width: 100, // Adjust the width as needed
+              height: 100, // Adjust the height as needed
+              fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
+            ),
+
+            const SizedBox(height: 10), // Add some space between the video and the text
+            const Text('Cat ASL'),
+          ],
+        ),
         actions: [
-          TextButton(
-            onPressed: () {
-              Navigator.of(context).pop();
-            },
-            child: const Text('Close'),
+
+          Column(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => VideoPlayerScreenCat()),
+                  );
+                },
+                child: const Icon(
+                    Icons.play_arrow
+                ),
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                    child: const Text('Close'),
+                  ),
+                  const SizedBox(width: 60),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      dog_overlay(context);
+                    },
+                    child: const Text('Next'),
+                  ),
+                ],
+              )
+            ],
           ),
         ],
       );
     },
   );
 }
+
+void dog_overlay(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Center(
+          child: Text('DOG'),
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
+          children: [
+            Image.asset(
+              'assets/tame icon.jpeg', // Replace with your image asset path
+              width: 100, // Adjust the width as needed
+              height: 100, // Adjust the height as needed
+              fit: BoxFit.contain, // Adjust the fit based on your image aspect ratio
+            ),
+
+            const SizedBox(height: 10), // Add some space between the video and the text
+            const Text('Dog ASL'),
+          ],
+        ),
+        actions: [
+
+          Column(
+            children: [
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => VideoPlayerScreenDog()),
+                  );
+                },
+                child: const Icon(
+                    Icons.play_arrow
+                ),
+              ),
+              Row(
+                children: [
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      cat_overlay(context);
+                    },
+                    child: const Text('Prev'),
+                  ),
+                  const SizedBox(width: 60),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                    child: const Text('Next'),
+                  ),
+                ],
+              )
+            ],
+          ),
+        ],
+      );
+    },
+  );
+}
+
+
+
+
+
